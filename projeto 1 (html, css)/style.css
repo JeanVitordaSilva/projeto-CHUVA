@@ -1,0 +1,436 @@
+/*---barra de navegação---*/
+.barra-nav {
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 14.5%;
+    padding: 90px 30px 0 0;
+    box-sizing: border-box;
+}
+
+.barra-nav h1 {
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    width: 100%;
+    min-height: 58px;
+    height: auto;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+    
+}
+
+.barra-nav img {
+    max-width: 114.5%;
+    width: auto;
+    left: 0;
+    padding-left: 0;
+    display: inline;
+    box-sizing: border-box;
+}
+
+.barra-nav ul {
+    font-size: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.barra-nav ul li {
+    border-bottom: 2px solid #e0e0e0;
+    width: 116%;
+}
+
+.barra-nav a {
+    text-decoration: none;
+    color: #725C5C;
+    padding-left: 24px;
+    display: block;
+    height: 33px;
+    padding-top: 10px;
+    transition: border-left 0.3s linear;
+}
+
+.barra-nav a:hover {
+    border-left: rgba(237, 120, 57, 1) solid 5px;
+    background: #FDF1EB;
+}
+
+/*---Titulo---*/
+.menu {
+    background: #FDF1EB;
+    width: 99.385%;
+    min-height: 68px;
+    height: auto;
+    top: 0;
+    position: absolute;
+    color: #725C5C;
+    font-size: 15.5px;
+}
+
+.menu-ul {
+    list-style: none;
+    line-height: 0;
+    padding-left: 16%;
+    padding-right: 30%;
+}
+
+
+/*---login---*/
+.header-login {
+    text-align: right;
+    padding-top: 0;
+    margin-top: 0;
+    right: 100px;
+    top: 0;
+    position: absolute;
+}
+
+.header-login img {
+    width: 48px;
+    position: absolute;
+    border-radius: 50%;
+    top: 12px;
+}
+
+.menu-ul-login {
+    list-style: none;
+    line-height: 0;
+}
+
+/*---conteúdo principal*/
+.main-content {
+    width: 85.5%;
+    margin-left: 14.5%;
+    padding: 72px 32px;
+    box-sizing: border-box;
+}
+
+/*---abaixo do titulo*/
+.topo {
+    padding-right: 400px;
+}
+
+.topo ul {
+    list-style: none;
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    top: 90px;
+}
+
+.topo ul li {
+    display: inline-block;
+    background: #ED7839;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+}
+
+.topo a {
+    text-decoration: none;
+    color: white;
+}
+
+.topo p {
+    color: #ED7839;
+    font-size: 14.8px;
+    position: absolute;
+    right: 70px;
+    top: 140px;
+}
+
+.topo h3 {
+    font-size: 24px;
+
+    color: #ED7839;
+}
+
+/*---Detalhes---*/
+
+.detalhes {
+    background: white;
+    width: 270px;
+    height: 390px;
+    right: 0px;
+    font-size: 15.3px;
+    border: 3px solid #ECECEC;
+    position: absolute;
+    overflow-x: scroll;
+top: 33%;
+
+   
+}
+
+#mais {
+    /*---complimir o texto , comando junto com javascript ---*/
+    display: none;
+}
+
+/*---Discussão---*/
+
+.discussao {
+    display: block;
+    text-align: center;
+}
+
+.discussao h3 {
+    color: #ED7839;
+}
+
+.discussao img {
+    width: 60px;
+}
+
+
+.discussao ul li {
+    display: inline;
+    padding: 0 60px 0 20px;
+}
+
+.discussao button {
+    background: linear-gradient(rgba(254, 178, 84, 1), rgba(240, 129, 61, 1));
+    border: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    width: 133px;
+    height: 32px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.discussao button img {
+    width: 20px;
+}
+.texto1{/*---Texto */
+     color: #424242
+}
+
+/*---Discussão*/
+.section-third {
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+    border: #ECECEC 2px solid;
+}
+
+.section-third h2 {
+    background: #FDF1EB;
+    margin-top: 0;
+    padding-top: 20px;
+    border-bottom: 2px solid #ECECEC;
+    padding-left: 10px;
+}
+
+/*Discussão*/
+
+.textouser {
+    display: none;
+    padding: 0 20px;
+    width: 95.5%;
+}
+
+.textouser p {
+    text-align: center;
+}
+
+.textouser h3 {
+    color: #ED7839;
+    display: block;
+    font-weight: bold;
+}
+
+.textouser input[type="text"] {
+    /*---configuração da area ASSUNTO---*/
+    width: 99.5%;
+    height: 40px;
+    border: 1px solid #4d4b4b;
+
+}
+
+.textouser ul {
+    /*---configuração da area  CONTEUDO  ---*/
+    list-style: none;
+    border: 1px solid #4d4b4b;
+    background: #EAF1F2;
+    position: relative;
+    max-width: 100%;
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+    bottom: 20px;
+}
+
+.textarea-format textarea {
+    /*---configuração da area (de novo comentario ) ---*/
+    width: 99.5%;
+    height: 100px;
+    resize: none;
+    position: relative;
+    border: 1px solid #4d4b4b;
+}
+
+.textarea-format ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+
+
+/*Discussão - topico*/
+.topico {
+    display: none;
+    text-align: center;
+    color: #ED7839;
+}
+
+
+.topico p {
+    color: #595959;
+}
+
+.topico a {
+    color: #F48F44;
+}
+
+.topico button {
+    background: linear-gradient(rgba(254, 178, 84, 1), rgba(240, 129, 61, 1));
+    border: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    width: 250px;
+    height: 32px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aguarde {
+    display: none;
+    position: relative;
+
+}
+
+.front-feedback-div {
+    /*------ ajuste o o estilo do salvamento do comentario*/
+    text-align: center;
+    position: absolute;
+    top: -23px;
+    left: 30%;
+    right: 30%;
+    z-index: 10;
+    color: #ED7839;
+}
+
+.front-comentario1-div {
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+    z-index: 10;
+}
+
+hr {
+    /*---configuração da borda acima do comentario ---*/
+    border: 2px solid #ffffff;
+}
+
+#btnLeiaMais {
+    /*---configuração da area de leia mais do texto ---*/
+    color: #ED7839;
+    border: none;
+    background: transparent;
+}
+
+/*---comentários---*/
+.comentario1 {
+    /*---configuração da area dos comentarios em geral ---*/
+    width: 95%;
+    min-height: 190px;
+    height: auto;
+    background: white;
+    border: 1px solid #E7E7E7;
+    margin: 2.5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.ul-comment-text {
+    list-style: none;
+    line-height: 2px;
+}
+
+.ul-comment-text h3 {
+    /*---configuração da area acima do titulo do autor ---*/
+    color: #ED7839;
+    letter-spacing: 0.5px;
+}
+
+.ul-comment-text h4 {
+    /*---configuração da area de titulo do autor---*/
+    color:  #4d4b4b;
+}
+
+.ul-comment-text p {
+    /*---configuração da area de texto do comentario individual---*/
+    line-height: normal;
+    color: #4d4b4b;
+}
+
+
+.ul-comment-icon li {
+    /*---configuração da area de like e afins ---*/
+    display: inline-block;
+    margin: 0 10px 0 0;
+    position: relative;
+    bottom: 20px;
+    color: #4d4b4b;
+}
+.fundo{
+    position: relative;
+    right: -220px;
+}
+@media (max-width: 980px) {
+
+    .sub-header {
+        width: 50%;
+        margin-top: 90px;
+    }
+
+    .sub-header ul,
+    .sub-header p {
+        margin-top: 100px;
+    }
+
+    .menu select {
+        top: 50px;
+        right: 100px;
+    }
+
+    .menu-ul {
+        line-height: normal;
+    }
+
+    .right-div {
+        height: 99%;
+        overflow: auto;
+    }
+
+    .comment-div {
+        font-size: 10px;
+        overflow: hidden;
+    }
+}
